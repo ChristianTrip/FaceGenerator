@@ -38,9 +38,9 @@
             button.setLayoutX(WIDTH / 2 - (button.getPrefWidth() / 2));
             button.setLayoutY((4 * HEIGHT) / 5);
             button.setOnAction(e -> drawPrimitiveFace());
-            autoButton = new Button("Auto generate a random face every two seconds");
+            autoButton = new Button("Auto generate a random face");
             autoButton.setScaleX(1);
-            autoButton.setPrefWidth(300);
+            autoButton.setPrefWidth(180);
             autoButton.setLayoutX(WIDTH / 2 - (autoButton.getPrefWidth() / 2));
             autoButton.setLayoutY((8 * HEIGHT) / 9);
             autoButton.setOnAction(e -> autoGenerateFace());
